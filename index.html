@@ -25,8 +25,6 @@
 <h2>カバー範囲</h2>
 <ul>
 <li><a href="https://medium.com/google-cloud-jp/bigquery-2020-update-summary-dfd245e77e44">BigQueryの2020年アップデートを（だいたい）全部振り返る</a>の後から</li>
-</ul>
-<ul>
 <li>Magnitude Simba JDBC and ODBC driversのリリースは省略</li>
 </ul>
 </section>
@@ -49,15 +47,9 @@
 <h2>SQL</h2>
 <h3>GA<img class="emoji" draggable="false" alt="🎊" src="https://twemoji.maxcdn.com/2/svg/1f38a.svg" data-marp-twemoji=""/></h3>
 <ul>
-<li>
-<p>高精度計算のための<code>BIGNUMERIC</code>型</p>
-</li>
-<li>
-<p>JSON文字列の配列を処理する<code>JSON_(EXTRACT_STRING|QUERY|VALUE)_ARRAY</code>関数</p>
-</li>
-<li>
-<p>データセットを作成、設定、削除する<code>(CREATE|ALTER|DROP) SCHEMA</code>ステートメント</p>
-</li>
+<li>高精度計算のための<code>BIGNUMERIC</code>型</li>
+<li>JSON文字列の配列を処理する<code>JSON_(EXTRACT_STRING|QUERY|VALUE)_ARRAY</code>関数</li>
+<li>データセットを作成、設定、削除する<code>(CREATE|ALTER|DROP) SCHEMA</code>ステートメント</li>
 </ul>
 </section>
 </foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="7" data-paginate="true" data-header="BigQuery リリース振り返り 2021年4月" data-marpit-pagination="7" data-marpit-pagination-total="17" style="--paginate:true;--header:BigQuery リリース振り返り 2021年4月;">
@@ -65,12 +57,8 @@
 <h2>SQL</h2>
 <h3>プレビュー<img class="emoji" draggable="false" alt="🎉" src="https://twemoji.maxcdn.com/2/svg/1f389.svg" data-marp-twemoji=""/></h3>
 <ul>
-<li>
-<p>テーブルから列を削除する<code>ALTER TABLE DROP COLUMN</code>ステートメント</p>
-</li>
-<li>
-<p>大きなテーブルのランダムなサブセットをクエリする<code>TABLESAMPLE</code>句</p>
-</li>
+<li>テーブルから列を削除する<code>ALTER TABLE DROP COLUMN</code>ステートメント</li>
+<li>大きなテーブルのランダムなサブセットをクエリする<code>TABLESAMPLE</code>句</li>
 </ul>
 </section>
 </foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="8" data-paginate="true" data-header="BigQuery リリース振り返り 2021年4月" data-marpit-pagination="8" data-marpit-pagination-total="17" style="--paginate:true;--header:BigQuery リリース振り返り 2021年4月;">
@@ -78,12 +66,8 @@
 <h2>SQL</h2>
 <h3>プレビュー<img class="emoji" draggable="false" alt="🎉" src="https://twemoji.maxcdn.com/2/svg/1f389.svg" data-marp-twemoji=""/></h3>
 <ul>
-<li>
-<p>パーティションの詳細を確認する<code>INFORMATION_SCHEMA.PARTITIONS</code>ビュー</p>
-</li>
-<li>
-<p>テーブルの再作成に使用できるDDLステートメント<code>DDL</code>が<code>INFORMATION_SCHEMA.TABLES</code>ビューに追加</p>
-</li>
+<li>パーティションの詳細を確認する<code>INFORMATION_SCHEMA.PARTITIONS</code>ビュー</li>
+<li>テーブルの再作成に使用できるDDLステートメント<code>DDL</code>が<code>INFORMATION_SCHEMA.TABLES</code>ビューに追加</li>
 </ul>
 </section>
 </foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="9" data-paginate="true" data-header="BigQuery リリース振り返り 2021年4月" data-marpit-pagination="9" data-marpit-pagination-total="17" style="--paginate:true;--header:BigQuery リリース振り返り 2021年4月;">
@@ -98,27 +82,21 @@
 <header>BigQuery リリース振り返り 2021年4月</header>
 <h2>性能改善</h2>
 <ul>
-<li>
-<p>マテリアライズドビューがGAに<img class="emoji" draggable="false" alt="🎊" src="https://twemoji.maxcdn.com/2/svg/1f38a.svg" data-marp-twemoji=""/></p>
+<li>マテリアライズドビューがGAに<img class="emoji" draggable="false" alt="🎊" src="https://twemoji.maxcdn.com/2/svg/1f38a.svg" data-marp-twemoji=""/>
 <ul>
 <li>異なるデータセットとプロジェクト内でも作成可能に</li>
 <li>追加の集計関数、<code>CROSS/LEFT JOIN UNNEST</code>、<code>INFORMATION_SCHEMA</code>、顧客管理の暗号鍵もサポート</li>
 </ul>
 </li>
-<li>
-<p>DATETIME列のクラスター化テーブルがGAに<img class="emoji" draggable="false" alt="🎊" src="https://twemoji.maxcdn.com/2/svg/1f38a.svg" data-marp-twemoji=""/></p>
-</li>
+<li>DATETIME列のクラスター化テーブルがGAに<img class="emoji" draggable="false" alt="🎊" src="https://twemoji.maxcdn.com/2/svg/1f38a.svg" data-marp-twemoji=""/></li>
 </ul>
 </section>
 </foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="11" data-paginate="true" data-header="BigQuery リリース振り返り 2021年4月" data-marpit-pagination="11" data-marpit-pagination-total="17" style="--paginate:true;--header:BigQuery リリース振り返り 2021年4月;">
 <header>BigQuery リリース振り返り 2021年4月</header>
 <h2>性能改善</h2>
 <ul>
-<li>
-<p>Cloud Storageへのクエリがクエリ結果のキャッシュ対象に<img class="emoji" draggable="false" alt="🎊" src="https://twemoji.maxcdn.com/2/svg/1f38a.svg" data-marp-twemoji=""/></p>
-</li>
-<li>
-<p>以下のBigQueryフィールドの最大長が128文字から300文字に増加<img class="emoji" draggable="false" alt="🎊" src="https://twemoji.maxcdn.com/2/svg/1f38a.svg" data-marp-twemoji=""/></p>
+<li>Cloud Storageへのクエリがクエリ結果のキャッシュ対象に<img class="emoji" draggable="false" alt="🎊" src="https://twemoji.maxcdn.com/2/svg/1f38a.svg" data-marp-twemoji=""/></li>
+<li>以下のBigQueryフィールドの最大長が128文字から300文字に増加<img class="emoji" draggable="false" alt="🎊" src="https://twemoji.maxcdn.com/2/svg/1f38a.svg" data-marp-twemoji=""/>
 <ul>
 <li>テーブルの列名、列のエイリアス名、ユーザー定義の関数名</li>
 </ul>
@@ -129,11 +107,8 @@
 <header>BigQuery リリース振り返り 2021年4月</header>
 <h2>データ読み込み</h2>
 <ul>
-<li>
-<p>Storage Read APIのネットワーク課金が2021年第3四半期の初めから開始</p>
-</li>
-<li>
-<p>Parquet形式の読み込み改善</p>
+<li>Storage Read APIのネットワーク課金が2021年第3四半期の初めから開始</li>
+<li>Parquet形式の読み込み改善
 <ul>
 <li>Enum論理型はSTRING または BYTES に変換されるように<img class="emoji" draggable="false" alt="🎊" src="https://twemoji.maxcdn.com/2/svg/1f38a.svg" data-marp-twemoji=""/></li>
 <li>LIST論理型でスキーマ推定できるように<img class="emoji" draggable="false" alt="🎊" src="https://twemoji.maxcdn.com/2/svg/1f38a.svg" data-marp-twemoji=""/></li>
@@ -160,15 +135,9 @@
 <header>BigQuery リリース振り返り 2021年4月</header>
 <h2>Data Transfer Service</h2>
 <ul>
-<li>
-<p>Cloud Storageからの転送の最小ファイル有効期間1時間の要件が廃止</p>
-</li>
-<li>
-<p>Cloud Storageからの定期的な転送の最小間隔が1時間から15分に短縮</p>
-</li>
-<li>
-<p>VPC Service Controlsで完全サポート</p>
-</li>
+<li>Cloud Storageからの転送の最小ファイル有効期間1時間の要件が廃止</li>
+<li>Cloud Storageからの定期的な転送の最小間隔が1時間から15分に短縮</li>
+<li>VPC Service Controlsで完全サポート</li>
 </ul>
 </section>
 </foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="16" data-paginate="true" data-header="BigQuery リリース振り返り 2021年4月" data-marpit-pagination="16" data-marpit-pagination-total="17" style="--paginate:true;--header:BigQuery リリース振り返り 2021年4月;">
