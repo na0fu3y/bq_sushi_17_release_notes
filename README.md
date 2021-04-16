@@ -29,10 +29,9 @@ header: BigQuery リリース振り返り 2021年4月
 ## カバー範囲
 
 - [BigQueryの2020年アップデートを（だいたい）全部振り返る]の後から
+- Magnitude Simba JDBC and ODBC driversのリリースは省略
 
 [BigQueryの2020年アップデートを（だいたい）全部振り返る]: https://medium.com/google-cloud-jp/bigquery-2020-update-summary-dfd245e77e44
-
-- Magnitude Simba JDBC and ODBC driversのリリースは省略
 
 ---
 
@@ -54,9 +53,7 @@ header: BigQuery リリース振り返り 2021年4月
 
 ### GA:confetti_ball:
 - 高精度計算のための`BIGNUMERIC`型
-
 - JSON文字列の配列を処理する`JSON_(EXTRACT_STRING|QUERY|VALUE)_ARRAY`関数
-
 - データセットを作成、設定、削除する`(CREATE|ALTER|DROP) SCHEMA`ステートメント
 
 ---
@@ -65,7 +62,6 @@ header: BigQuery リリース振り返り 2021年4月
 
 ### プレビュー:tada:
 - テーブルから列を削除する`ALTER TABLE DROP COLUMN`ステートメント
-
 - 大きなテーブルのランダムなサブセットをクエリする`TABLESAMPLE`句
 
 ---
@@ -75,7 +71,6 @@ header: BigQuery リリース振り返り 2021年4月
 ### プレビュー:tada:
 
 - パーティションの詳細を確認する`INFORMATION_SCHEMA.PARTITIONS`ビュー
-
 - テーブルの再作成に使用できるDDLステートメント`DDL`が`INFORMATION_SCHEMA.TABLES`ビューに追加
 
 ---
@@ -91,7 +86,6 @@ header: BigQuery リリース振り返り 2021年4月
 - マテリアライズドビューがGAに:confetti_ball:
     - 異なるデータセットとプロジェクト内でも作成可能に
     - 追加の集計関数、`CROSS/LEFT JOIN UNNEST`、`INFORMATION_SCHEMA`、顧客管理の暗号鍵もサポート
-
 - DATETIME列のクラスター化テーブルがGAに:confetti_ball:
 
 ---
@@ -99,7 +93,6 @@ header: BigQuery リリース振り返り 2021年4月
 ## 性能改善
 
 - Cloud Storageへのクエリがクエリ結果のキャッシュ対象に:confetti_ball:
-
 - 以下のBigQueryフィールドの最大長が128文字から300文字に増加:confetti_ball:
     - テーブルの列名、列のエイリアス名、ユーザー定義の関数名
 
@@ -108,7 +101,6 @@ header: BigQuery リリース振り返り 2021年4月
 ## データ読み込み
 
 - Storage Read APIのネットワーク課金が2021年第3四半期の初めから開始
-
 - Parquet形式の読み込み改善
   - Enum論理型はSTRING または BYTES に変換されるように:confetti_ball:
   - LIST論理型でスキーマ推定できるように:confetti_ball:
@@ -116,7 +108,6 @@ header: BigQuery リリース振り返り 2021年4月
 ---
 
 ## データ書き込み
-
 - Storage Write APIがプレビューに:tada:
 - Parquet形式でのテーブルデータのエクスポートをプレビュー:tada:
 
@@ -131,15 +122,12 @@ header: BigQuery リリース振り返り 2021年4月
 
 ## Data Transfer Service
 - Cloud Storageからの転送の最小ファイル有効期間1時間の要件が廃止
-
 - Cloud Storageからの定期的な転送の最小間隔が1時間から15分に短縮
-
 - VPC Service Controlsで完全サポート
 
 ---
 
 ## 個人的、今後に期待:hourglass:
-
 - Omni、Data QnAのパブリックプレビュー
 - Looker、Dataformの統合
 - Feature Store
