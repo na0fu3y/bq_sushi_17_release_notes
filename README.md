@@ -38,14 +38,14 @@ header: BigQuery リリース振り返り 2021-04
 ## UI
 - 新Cloud Consoleがプレビュー:tada:
 
-![bg right:60% 100%](https://cloud.google.com/bigquery/images/web-ui-components.png)
+![bg right:60% 90%](https://cloud.google.com/bigquery/images/web-ui-components.png)
 
 ---
 
 ## UI
 - BigQuery管理リソースグラフ（Reservations利用者向け）がプレビュー:tada:
 
-![bg right:60% 100%](https://cloud.google.com/bigquery/images/admin-chart-overview.png)
+![bg right:60% 90%](https://cloud.google.com/bigquery/images/admin-chart-overview.png)
 
 ---
 
