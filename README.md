@@ -7,7 +7,7 @@ _header: "#bq_sushi #17 BigQueryのデータパイプラインってどうして
 header: BigQuery リリース振り返り 2021年4月
 ---
 
-# BigQuery リリース振り返り 2021年4月
+# BigQuery リリース振り返り 2021-04
 
 @na0fu3y
 
