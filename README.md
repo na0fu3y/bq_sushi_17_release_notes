@@ -23,6 +23,7 @@ header: BigQuery リリース振り返り 2021年4月
 [BQ FUN Slackワークスペース]: https://join.slack.com/t/bqfun/shared_invite/zt-p14l1byc-rIZ2WmndLdzFBT63HRVgfA
 
 ![bg right:25% 90%](https://avatars.githubusercontent.com/u/17900178)
+
 ---
 
 ## カバー範囲
