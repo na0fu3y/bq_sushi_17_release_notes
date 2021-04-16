@@ -1,10 +1,10 @@
 ---
 marp: true
-title: BigQuery リリース振り返り 2021年4月
+title: BigQuery リリース振り返り 2021-04
 _paginate: false
 paginate: true
 _header: "#bq_sushi #17 BigQueryのデータパイプラインってどうしてる？"
-header: BigQuery リリース振り返り 2021年4月
+header: BigQuery リリース振り返り 2021-04
 ---
 
 # BigQuery リリース振り返り 2021-04
